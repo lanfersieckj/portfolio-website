@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon(1).png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Joseph Lanfersieck | Software Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Joseph Lanfersieck</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/profile2.png"
+        alt="joey-lanfersieck"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hello! My name is Joey. I am a senior studying at Washington
+          University in St. Louis pursuing degrees in Computer Science &
+          Computer Engineering. I am passionate about software development, and
+          I am always looking for new opportunities to learn and grow. I am
+          currently looking for a full time position as a software developer.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        Along with my studies at WashU, my co-founder and I have spent the last
+        year and a half launching a company named Sobriety Hub. This is by far
+        my biggest project and the one I am most proud of. It has sharpened my
+        skills in every domain (pun intended) of web development, from front-end
+        to back-end. It has been a joy learning so much along the way. While I
+        am sad to be letting it go upon graduation, I am confident what we
+        started will continue to go on and many individuals will benefit in
+        their road to recovery.
+      </p>
+      <p>
+        Taking a step back from work and school, I am a huge fan of the
+        outdoors. I love to go hiking, swimming, camping, and rock climbing,
+        among other activities. I also have a passion for video games. My
+        competitive nature shines through I am playing, as I strive to reach the
+        top ranks in my favorite game, Valorant. Additionally, having been born
+        and raised in St. Louis, I am of course a devoted fan of both the
+        Cardinals and the Blues.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-nextjs.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-postgres.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-unity.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-c.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/sobrietyHub.png"
+            alt="sobriety-hub"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Sobriety Hub</h3>
+          <p class="project-details">
+            Sobriety hub is a management software that helps sober living
+            operators better manage their homes. It helps them log drugs
+            results, meeting attendance, mood reports, collect rent, and so much
+            more. With around 80 businesses using our software we are now
+            serving over 2000 people in recovery!
+          </p>
+          <a
+            href="https://www.sobrietyhub.com/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/appleClone.png"
+            alt="apple-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Apple Clone</h3>
+          <p class="project-details">
+            Using just HTML, CSS, and JavaScript, I carefully replicated Apple's
+            landing page design and functionality. Every detail, was crafted to
+            closely mirror the original, showcasing my front-end development
+            skills and dedication to design accuracy. Analyzing Apple's design
+            practices gave me insights into how to create intuitive and
+            aesthetically pleasing web interfaces.
+          </p>
+          <a
+            href="https://cse204-2023.github.io/06-brand-redesign-lanfersieckj/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/valorantWiki.png"
+            alt="valorant-wiki"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Valorant Wiki</h3>
+          <p class="project-details">
+            Using the React library and the Next.js framework, I created a
+            website deployed on Vercel that gives you all information about the
+            game Valorant. It uses the official api, so anytime the game is
+            updated with new skins, maps, or agents the website will update
+            automatically. It even has GPT 3.5 built in with the persona of my
+            favorite agent Brimstone!
+          </p>
+          <a
+            href="https://valorantwiki-fvq7azyka-lanfersieckj.vercel.app/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+      </div>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/diamondFrenzy.png"
+            alt="diamond-frenzy"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Diamond Frenzy</h3>
+          <p class="project-details">
+            This is a little game with easy controls and simple graphics. This
+            game demonstrates my skills in game design. It doesn't look
+            incredible, but the scripts are well written and the game is fun to
+            play.
+          </p>
+          <a
+            href="https://lanfersieckj.itch.io/diamond-frenzy"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/meteorMayhem.png"
+            alt="meteor-mayhem"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Metor Mayhem</h3>
+          <p class="project-details">
+            This game takes a step forward with the physics to make it feel like
+            the user and projectiles are flying through space. It also uses high
+            quality pixelated assets to make the game look a lot better.
+          </p>
+          <a
+            href="https://lanfersieckj.itch.io/meteor-mayhem"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/marioBrickBreaker.png"
+            alt="mario-brick-breaker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Mario Brick Breaker</h3>
+          <p class="project-details">
+            This little minigame demonstrates my skills learned in animation and
+            sound design. It was designed to be very scalable with a level
+            selector and many 2D tile assets to create new levels.
+          </p>
+          <a
+            href="https://lanfersieckj.itch.io/mario-brick-breaker"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/myyqnpjv" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a
+        href="https://www.linkedin.com/in/joseph-lanfersieck-42377b22b/"
+        target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/lanfersieckj" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">
+        Built by Joey Lanfersieck inspired by this
+        <a
+          href="https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/"
+          target="_blank"
+          >tutorial</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
