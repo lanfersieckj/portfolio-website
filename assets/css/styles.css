@@ -113,8 +113,8 @@ nav ul li {
 
 .hero img {
   margin: 20px;
-  height: 480px;
-  width: 360px;
+  height: 29rem;
+  width: 21rem;
   border-radius: 20px;
 }
 
@@ -372,12 +372,14 @@ footer {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    margin-top: 5rem;
+    height: 24rem;
+    width: 18rem;
+    border-radius: 20px;
   }
 
   .bio {
-    margin-top: -7rem;
+    /* margin-top: -7rem; */
     width: 20.5rem;
   }
 
@@ -414,8 +416,10 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
-    width: 23rem;
+    margin-top: 5rem;
+    height: 24rem;
+    width: 18rem;
+    border-radius: 20px;
   }
 
   .bio {
